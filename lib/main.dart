@@ -107,7 +107,7 @@ class MyApp extends StatelessWidget {
                 '/login': (context) => LoginPage(),
                 '/signup': (context) => SignUpPage(),
               },
-              initialRoute: '/',
+              initialRoute: '/login',
             );
           }),
     );
